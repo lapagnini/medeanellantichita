@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+     <teiHeader>
+          <fileDesc>
+               <titleStmt>
+                    <title ref="http://viaf.org/viaf/117159474174027661135">Medea Iasoni (Heroides). Edizione digitale</title>
+                    <respStmt>
+                         <resp>trascrizione</resp>
+                         <name xml:id="PDL">Perseus Digital Library</name>
+                    </respStmt>
+                    <respStmt>
+                         <resp>convertito in XML</resp>
+                         <resp>marcatura</resp>
+                         <name xml:id="LP">Laura Pagnini</name>
+                    </respStmt>
+               </titleStmt>
+               <publicationStmt>
+                    <p>Non finalizzato alla distribuzione</p>
+               </publicationStmt>
+               <sourceDesc>
+                    <p>Trascritto dalla versione disponibile su Perseus Digital Library</p>
+               </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+               <date>2 d.C.</date>
+               <langUsage>
+                    <language ident="la">Latino</language>
+               </langUsage>
+               <particDesc>
+                    <listPerson>
+                         <person>
+                              <persName xml:id="Md" sameAs="http://viaf.org/viaf/305149294392580522664">Medea</persName> 
+                         </person>
+                         <person>                  
+                              <persName xml:id="Pl" sameAs="http://viaf.org/viaf/8155157342854510100004">Pelia</persName>
+                         </person>
+                         <person>
+                              <persName xml:id="Phrx" sameAs="http://viaf.org/viaf/42164959454324020174">Frisso</persName>
+                         </person>
+                         <person>
+                              <persName xml:id="Cr" sameAs="http://viaf.org/viaf/316437410">Creusa</persName>
+                         </person>
+                         <person> 
+                              <persName xml:id="Aet" sameAs="http://viaf.org/viaf/8196424">Eeta</persName>
+                         </person>
+                         <person> 
+                              <persName xml:id="Krn" sameAs="http://viaf.org/viaf/8168105447343321674">Creonte</persName>
+                         </person>
+                         <person>
+                              <persName xml:id="Ia" sameAs="http://viaf.org/viaf/12290832">Giasone</persName>
+                         </person>
+                         <personGrp xml:id="Arg" sameAs="http://viaf.org/viaf/193717443">Argonauti
+                         </personGrp>
+                         <person>
+                              <persName xml:id="Scy" sameAs="http://viaf.org/viaf/202065436">Scilla</persName>
+                         </person>
+                         <person>
+                              <persName xml:id="Crd" sameAs="http://viaf.org/viaf/202157161">Cariddi</persName>
+                         </person>
+                    </listPerson>
+               </particDesc>
+               <settingDesc>
+                    <listPlace>
+                         <place>
+                              <geogName xml:id="Ph" type="river" sameAs="https://pleiades.stoa.org/places/874645">Fasi</geogName>
+                         </place>
+                         <placeName>
+                                   <settlement xml:id="Rg" type="city" sameAs="https://pleiades.stoa.org/places/491527">Argo</settlement>
+                              </placeName>
+                         <place xml:id="Sym" type="islandGroup" sameAs="https://pleiades.stoa.org/places/874645">
+                              <placeName>Simplegadi</placeName>
+                         </place>
+                         <place>
+                              <placeName>
+                                   <settlement xml:id="Cor" type="city" sameAs="https://pleiades.stoa.org/places/570182">Corinto</settlement>
+                              </placeName>
+                         </place>
+                         <place>
+                              <placeName>
+                                   <region xml:id="Sct" sameAs="https://pleiades.stoa.org/places/1273">Scizia</region>
+                              </placeName>
+                         </place>
+                    </listPlace>
+               </settingDesc>
+               <textClass>
+                    <keywords>
+                         <term>Poesia Latina</term>
+                         <term>Medea</term>
+                    </keywords>
+               </textClass>
+          </profileDesc>
+     </teiHeader>
+     <text xml:lang="la">
+<l>At tibi Colchorum, memini, regina vacavi,</l>
+     <l>ars mea cum peteres ut tibi ferret opem.</l>
+<l>Tunc quae dispensant mortalia fila sorores</l>
+     <l>debuerant fusos evoluisse meos.</l>
+<l>Tum potui <persName sameAs="#Md">Medea</persName> mori bene! quidquid ab illo</l>
+     <l>produxi vitam tempore, poena fuit.</l>
+<l>Ei mihi! cur umquam iuvenalibus acta lacertis</l>
+     <l><persName sameAs="#Phrx">Phrixeam</persName> petiit <persName sameAs="#Pl">Pelias</persName> arbor ovem?</l>
+<l>Cur umquam Colchi Magnetida vidimus <settlement sameAs="#Rg">Argo,</settlement></l>
+     <l>turbaque <geogName sameAs="#Ph">Phasiacam</geogName> Graia bibistis aquam?</l>
+<l>Cur mihi plus aequo flavi placuere capilli</l>
+     <l>et decor et linguae gratia ficta tuae?</l>
+<l>Aut, semel in nostras quoniam nova puppis harenas</l>
+     <l>venerat audacis attuleratque viros,</l>
+<l>Isset anhelatos non praemedicatus in ignes</l>
+     <l>inmemor <persName sameAs="#Ia">Aesonides</persName> oraque adusta boum;</l>
+<l>Semina iecisset totidem quot semina et hostes,</l>
+     <l>ut caderet cultu cultor ab ipse suo!</l>
+<l>Quantum perfidiae tecum, scelerate, perisset,</l>
+     <l>dempta forent capiti quam mala multa meo!</l>
+<l>Est aliqua ingrato meritum exprobrare voluptas.</l>
+     <l>Hac fruar; haec de te gaudia sola feram.</l>
+<l>Iussus inexpertam Colchos advertere puppim</l>
+     <l>intrasti patriae regna beata meae.</l>
+<l>Hoc illic <persName sameAs="#Md">Medea</persName> fui, nova nupta quod hic est;</l>
+     <l>quam pater est illi, tam mihi dives erat.</l>
+<l>Hic <settlement sameAs="Cor">Ephyren</settlement> bimarem, <region sameAs="#Sct">Scythia</region> tenus ille nivosa</l>
+     <l>omne tenet, Ponti qua plaga laeva iacet.</l>
+<l>Accipis hospitio iuvenes, <persName sameAs="#Aet">Aeeta</persName>, Pelasgos,</l>
+     <l>et premitis pictos, corpora Graia, toros.</l>
+<l>Tunc ego te vidi, tunc coepi scire, quid esses;</l>
+     <l>illa fuit mentis prima ruina meae.</l>
+<l>Et vidi et perii; nec notis ignibus arsi,</l>
+     <l>ardet ut ad magnos pinea taeda deos.</l>
+<l>Et formosus eras, et me mea fata trahebant;</l>
+     <l>abstulerant oculi lumina nostra tui.</l>
+<l>Perfide, sensisti — quis enim bene celat amorem?</l>
+     <l>Eminet indicio prodita flamma suo.</l>
+<l>Dicitur interea tibi lex ut dura ferorum</l>
+     <l>insolito premeres vomere colla boum.</l>
+<l>Martis erant tauri plus quam per cornua saevi,</l>
+     <l>quorum terribilis spiritus ignis erat;</l>
+<l>aere pedes solidi praetentaque naribus aera,</l>
+     <l>Nigra per adflatus haec quoque facta suos.</l>
+<l>Semina praeterea populos genitura iuberis</l>
+     <l>spargere devota lata per arva manu,</l>
+<l>Qui peterent natis secum tua corpora telis;</l>
+     <l>illa est agricolae messis iniqua suo.</l>
+<l>Lumina custodis succumbere nescia somno,</l>
+     <l>ultimus est aliqua decipere arte labor.</l>
+<l>Dixerat <persName sameAs="#Aet">Aeetes</persName>; maesti consurgitis omnes,</l>
+     <l>mensaque purpureos deserit alta toros.</l>
+<l>Quam tibi tunc longe regnum dotale <persName sameAs="#Cr">Creusae</persName></l>
+     <l>et socer et magni nata <persName sameAs="Krn">Creontis</persName> erat!</l>
+<l>Tristis abis; oculis abeuntem prosequor udis,</l>
+     <l>et dixit tenui murmure lingua: 'vale!'</l>
+<l>Ut positum tetigi thalamo male saucia lectum,</l>
+     <l>acta est per lacrimas nox mihi, quanta fuit;</l>
+<l>ante oculos taurique meos segetesque nefandae,</l>
+     <l>ante meos oculos pervigil anguis erat.</l>
+<l>Hinc amor, hinc timor est; ipsum timor auget amorem.</l>
+     <l>Mane erat, et thalamo cara recepta soror</l>
+<l>disiectamque comas adversaque in ora iacentem</l>
+     <l>invenit, et lacrimis omnia plena meis.</l>
+<l>Orat opem <personGrp sameAs="#Arg">Minyis</personGrp>. alter petit, impetrat alter:</l>
+     <l><persName sameAs="#Ia">Aesonio</persName> iuveni quod rogat illa, damus.</l>
+<l>Est nemus et piceis et frondibus ilicis atrum;</l>
+     <l>vix illuc radiis solis adire licet.</l>
+<l>Sunt in eo — fuerant certe — delubra Dianae;</l>
+     <l>aurea barbarica stat dea facta manu.</l>
+<l>Noscis? an exciderunt mecum loca? venimus illuc.</l>
+     <l>Orsus es infido sic prior ore loqui:</l>
+<l>Ius tibi et arbitrium nostrae fortuna salutis</l>
+     <l>tradidit, inque tua est vitaque morsque manu.</l>
+<l>Perdere posse sat est, siquem iuvet ipsa potestas;</l>
+     <l>sed tibi servatus gloria maior ero.</l>
+<l>Per mala nostra precor, quorum potes esse levamen,</l>
+   <l>per genus, et numen cuncta videntis avi,</l>
+<l>Per triplicis vultus arcanaque sacra Dianae,</l>
+     <l>et si forte aliquos gens habet ista deos —</l>
+<l>o virgo, miserere mei, miserere meorum;</l>
+     <l>effice me meritis tempus in omne tuum!</l>
+<l>Quodsi forte virum non dedignare Pelasgum —</l>
+     <l>sed mihi tam faciles unde meosque deos? —</l>
+<l>Spiritus ante meus tenues vanescet in auras </l>
+     <l>quam thalamo nisi tu nupta sit ulla meo!</l>
+<l>Conscia sit Iuno sacris praefecta maritis,</l>
+     <l>et dea marmorea cuius in aede sumus!</l>
+<l>Haec animum — et quota pars haec sunt! — movere puellae</l>
+     <l>simplicis, et dextrae dextera iuncta meae.</l>
+<l>Vidi etiam lacrimas — sua pars et fraudis in illis.</l>
+     <l>Sic cito sum verbis capta puella tuis.</l>
+<l>Iungis aenipedes inadusto corpore tauros</l>
+     <l>et solidam iusso vomere findis humum.</l>
+<l>Arva venenatis pro semine dentibus inples,</l>
+     <l>nascitur et gladios scutaque miles habens.</l>
+<l>Ipsa ego, quae dederam medicamina, pallida sedi,</l>
+     <l>cum vidi subitos arma tenere viros,</l>
+<l>Donec terrigenae, facinus mirabile, fratres</l>
+     <l>inter se strictas conseruere manus.</l>
+<l>Insopor ecce vigil squamis crepitantibus horrens</l>
+     <l>sibilat et torto pectore verrit humum!</l>
+<l>Dotis opes ubi erant? ubi erat tibi regia coniunx,</l>
+     <l>quique maris gemini distinet Isthmos aquas?</l>
+<l>Illa ego, quae tibi sum nunc denique barbara facta,</l>
+     <l>nunc tibi sum pauper, nunc tibi visa nocens,</l>
+<l>flammea subduxi medicato lumina somno,</l>
+     <l>et tibi, quae raperes, vellera tuta dedi.</l>
+<l>Proditus est genitor, regnum patriamque reliqui;</l>
+     <l>munus, in exilio quod licet esse, tuli!</l>
+<l>Virginitas facta est peregrini praeda latronis;</l>
+     <l>optima cum cara matre relicta soror.</l>
+<l>At non te fugiens sine me, germane, reliqui!</l>
+     <l>Deficit hoc uno littera nostra loco.</l>
+<l>Quod facere ausa mea est, non audet scribere dextra.</l>
+   <l>  Sic ego, sed tecum, dilaceranda fui.</l>
+<l>Nec tamen extimui — quid enim post illa timerem? —</l>
+     <l>Credere me pelago, femina iamque nocens.</l>
+<l>Numen ubi est? ubi di? meritas subeamus in alto,</l>
+     <l>tu fraudis poenas, credulitatis ego!</l>
+<l>Compressos utinam <placeName sameAs="#Sym">Symplegades</placeName> elisissent,</l>
+     <l>nostraque adhaererent ossibus ossa tuis;</l>
+<l>Aut nos <persName sameAs="#Scy">Scylla</persName> rapax canibus mersisset edendos —</l>
+     <l>Debuit ingratis <persName sameAs="#Scy">Scylla</persName> nocere viris;</l>
+<l><persName sameAs="#Crd">quaeque vomit totidem fluctus totidemque resorbet</persName>,</l>
+     <l>nos quoque Trinacriae supposuisset aquae!</l>
+<l>Sospes ad Haemonias victorque reverteris urbes;</l>
+     <l>ponitur ad patrios aurea lana deos.</l>
+<l>Quid referam <persName sameAs="#Pl">Peliae</persName> natas pietate nocentes</l>
+     <l>caesaque virginea membra paterna manu?</l>
+<l>Ut culpent alii, tibi me laudare necesse est,</l>
+     <l>pro quo sum totiens esse coacta nocens.</l>
+<l>Ausus es — o, iusto desunt sua verba dolori! —</l>
+     <l>ausus es 'Aesonia,' dicere, 'cede domo!'</l>
+<l>Iussa domo cessi natis comitata duobus</l>
+     <l>et, qui me sequitur semper, amore tui.</l>
+<l>Ut subito nostras Hymen cantatus ad aures</l>
+     <l>venit, et accenso lampades igne micant,</l>
+<l>tibiaque effundit socialia carmina vobis,</l>
+     <l>At mihi funerea flebiliora tuba,</l>
+<l>pertimui, nec adhuc tantum scelus esse putabam;</l>
+     <l>sed tamen in toto pectore frigus erat.</l>
+<l>Turba ruunt et 'Hymen,' clamant, 'Hymenaee!' frequenter —</l>
+     <l>quo propior vox haec, hoc mihi peius erat.</l>
+<l>Diversi flebant servi lacrimasque tegebant —</l>
+     <l>quis vellet tanti nuntius esse mali?</l>
+<l>Me quoque, quidquid erat, potius nescire iuvabat;</l>
+   <l>sed tamquam scirem, mens mea tristis erat,</l>
+<l>cum minor e pueris (casu studione videndi</l>
+     <l>Constitit ad geminae limina prima foris)</l>
+<l>Huc modo, mater, adi! pompam pater, inquit, Iason</l>
+     <l>ducit et adiunctos aureus urget equos!</l>
+<l>Protinus abscissa planxi mea pectora veste,</l>
+     <l>tuta nec a digitis ora fuere meis.</l>
+<l>Ire animus mediae suadebat in agmina turbae</l>
+     <l>sertaque conpositis demere rapta comis;</l>
+<l>vix me continui, quin dilaniata capillos</l>
+     <l>clamarem 'meus est!' iniceremque manus.</l>
+<l>Laese pater, gaude! Colchi gaudete relicti!</l>
+     <l>Inferias umbrae fratris habete mei;</l>
+<l>deseror amissis regno patriaque domoque</l>
+     <l>coniuge, qui nobis omnia solus erat!</l>
+<l>Serpentis igitur potui taurosque furentes;</l>
+     <l>unum non potui perdomuisse virum,</l>
+<l>quaeque feros pepuli doctis medicatibus ignes,</l>
+     <l>non valeo flammas effugere ipsa meas.</l>
+<l>Ipsi me cantus herbaeque artesque relinquunt;</l>
+     <l>nil dea, nil Hecates sacra potentis agunt.</l>
+<l>Non mihi grata dies; noctes vigilantur amarae,</l>
+     <l>et tener a misero pectore somnus abest.</l>
+<l>Quae me non possum, potui sopire draconem;</l>
+     <l>utilior cuivis quam mihi cura mea est.</l>
+<l>Quos ego servavi, paelex amplectitur artus,</l>
+     <l>et nostri fructus illa laboris habet.</l>
+<l>Forsitan et, stultae dum te iactare maritae</l>
+     <l>quaeris et iniustis auribus apta loqui,</l>
+<l>in faciem moresque meos nova crimina fingas.</l>
+     <l>Rideat et vitiis laeta sit illa meis!</l>
+<l>Rideat et Tyrio iaceat sublimis in ostro —</l>
+     <l>flebit et ardores vincet adusta meos!</l>
+<l>Dum ferrum flammaeque aderunt sucusque veneni,</l>
+     <l>hostis <persName sameAs="#Md">Medeae</persName> nullus inultus erit!</l>
+<l>Quodsi forte preces praecordia ferrea tangunt,</l>
+     <l>nunc animis audi verba minora meis!</l>
+<l>Tam tibi sum supplex, quam tu mihi saepe fuisti,</l>
+     <l>nec moror ante tuos procubuisse pedes.</l>
+<l>Si tibi sum vilis, communis respice natos;</l>
+     <l>saeviet in partus dira noverca meos.</l>
+<l>Et nimium similes tibi sunt, et imagine tangor,</l>
+     <l>et quotiens video, lumina nostra madent.</l>
+<l>Per superos oro, per avitae lumina flammae,</l>
+     <l>per meritum et natos, pignora nostra, duos —</l>
+<l>redde torum, pro quo tot res insana reliqui;</l>
+     <l>adde fidem dictis auxiliumque refer!</l>
+<l>Non ego te inploro contra taurosque virosque,</l>
+     <l>utque tua serpens victa quiescat ope;</l>
+<l>te peto, quem merui, quem nobis ipse dedisti,</l>
+     <l>cum quo sum pariter facta parente parens.</l>
+<l>Dos ubi sit, quaeris? campo numeravimus illo,</l>
+     <l>qui tibi laturo vellus arandus erat.</l>
+<l>Aureus ille aries villo spectabilis alto</l>
+     <l>dos mea, quam, dicam si tibi 'redde!,' neges.</l>
+<l>Dos mea tu sospes; dos est mea Graia iuventus!</l>
+     <l>I nunc, Sisyphias, inprobe, confer opes!</l>
+<l>Quod vivis, quod habes nuptam socerumque potentis,</l>
+     <l>hoc ipsum, ingratus quod potes esse, meum est.</l>
+<l>Quos equidem actutum — sed quid praedicere poenam</l>
+     <l>attinet? ingentis parturit ira minas.</l>
+<l>Quo feret ira, sequar! facti fortasse pigebit —</l>
+     <l>et piget infido consuluisse viro.</l>
+<l>Viderit ista deus, qui nunc mea pectora versat!</l>
+     <l>Nescio quid certe mens mea maius agit!</l>
+     </text>
+</TEI>

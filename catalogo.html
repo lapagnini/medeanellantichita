@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="it">
+  <html>
+   <head>
+    <meta charset="utf-8">
+    <title>Catalogo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="icon" href="immagini/icona.ico">
+   </head>
+   <header>
+     <div class="container-fluid">
+      <div class="row">
+        <img src="immagini/testata.jpg" class="testata1 col-md-1">   
+        <h1 class="col-md-10">Medea nell'antichità</h1>
+        <img src="immagini/testata2.jpg" class="testata2 col-md-1">
+      </div>
+    </div>
+     <!-- navbar -->
+    <div class="navbar">
+        <ul class="col-md-12">
+            <li><a href="file:///C:/Users/Utente/Desktop/Digital%20humanities/index.html">Home</a></li>
+            <li><a href="file:///C:/Users/Utente/Desktop/Digital%20humanities/catalogo.html" title="Esplora il catalogo" class="paginattiva">Catalogo</a></li>
+            <li><a href="#">Personaggi del mito</a></li>
+            <li><a href="#">Luoghi del mito</a></li>
+            <li><a href="#">Studi</a></li>
+            <div class="search-container">
+              <li><input type="text" placeholder="Cerca..."></li>
+              <li><button type="button" class="btn btn-danger bottonedeeppink">Cerca</button></li>
+          </div>
+        </ul>
+    </div>
+   </header>
+   <!-- briciole -->
+   <body class="corpi">
+        <ul class="breadcrumb">
+           <li><a href="file:///C:/Users/Utente/Desktop/Digital%20humanities/index.html">Home</a></li>
+          <li>Catalogo</li>
+        </ul>
+        <!-- nav catalogo -->
+        <nav class="navcatalogo">
+          <p><h4>Ordine alfabetico delle opere</h4>
+            <a href="#" class="btn btn-light">A-Z</a>
+            <a href="#" class="btn btn-light">Z-A</a>
+          <hr>
+          <h4>Filtra per</h4>
+                <p><div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Supporto
+                    </button>
+                      <ul class="dropdown-menu">
+                        <li><a href="#" class="dropdown-item">Testo</a></li>
+                    <hr>
+                        <li><a href="#" class="dropdown-item">Immagine</a></li>
+                    <hr>
+                        <li><a href="#" class="dropdown-item" >Video</a></li>
+                      </ul></div></p>
+                    <p><a href="#" class="btn btn-light">Data di pubblicazione</a></p>
+                    <p><a href="#" class="btn btn-light">Luogo di pubblicazione</a></p>   
+             <hr>
+          <h4 class="filtricatalogo">Visualizza</h4>
+            <p><a href="#" class="btn btn-light tablinks" onclick="openFilter(event, 'letterarie')">Opere letterarie</a></p>
+            <p><a href="#" class="btn btn-light tablinks" onclick="openFilter(event, 'arte')">Opere d'arte</a></p>
+            <p><a href="#" class="btn btn-light tablinks" onclick="openFilter(event, 'videolezioni')">Videolezioni</a></p>
+            <p><a href="#" class="btn btn-light tablinks" onclick="openFilter(event, 'edizioni')">Edizioni moderne</a></p>
+        </p>
+     </nav>
+     <!-- galleria -->
+     <div class="galleriacatalogo">
+              <div id="letterarie" class="tabcontent">
+                <div class="singolecatalogo">
+                  <a href="https://www.perseus.tufts.edu/hopper/text?doc=Apollon.+3.1&fromdoc=Perseus%3Atext%3A1999.01.0227" target="_blank" title="Leggi il testo greco">
+                    <div class="card">
+                      <img src="./immagini/giasone.jpg" alt="Argonautiche di Apollonio Rodio">
+                      <div class="containercard">
+                          <p><cite>Argonautiche</cite> di Apollonio Rodio</p>                    
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="singolecatalogo">
+                  <a href="file:///C:/Users/Utente/Desktop/Digital%20humanities/item.html" title="Leggi il testo latino">
+                    <div class="card">
+                      <img src="./immagini/heroides.jpg" alt="Edizione moderna delle Heroides di Ovidio">
+                      <div class="containercard">
+                          <p><cite>Heroides</cite> di Ovidio</p>                    
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="singolecatalogo">
+                  <a href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3atext%3a2007.01.0005" target="_blank" title="Leggi il testo latino">
+                    <div class="card">
+                      <img src="./immagini/Waterhouse.jpg" alt="Medea di Seneca">
+                      <div class="containercard">
+                          <p><cite>Medea</cite> di Seneca</p>                    
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            <div id="arte" class="tabcontent">
+              <div class="singolecatalogo">
+                  <a href="https://www.britishmuseum.org/collection/object/G_1843-1103-76" target="_blank" title="Scopri di più">
+                    <div class="card">
+                      <img src="./immagini/hydria.jpg" alt="Ringiovanimento di Giasone">
+                      <div class="containercard">
+                          <p>Ringiovanimento di Giasone (hydria)</p>                    
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="singolecatalogo">
+                  <a href="https://www.britishmuseum.org/collection/object/G_1837-0609-62" target="_blank" title="Scopri di più">
+                    <div class="card">
+                      <img src="./immagini/anfora.jpg" alt="Medea cuoce l'ariete">
+                      <div class="containercard">
+                          <p>Medea cuoce l'ariete (anfora)</p>                    
+                      </div>
+                    </div>
+                  </a>
+              </div>
+              <div class="singolecatalogo">
+                  <a href="https://www.clevelandart.org/art/1991.1" target="_blank" title="Scopri di più">
+                    <div class="card">
+                      <img src="./immagini/cratere.jpg" alt="Fuga di Medea">
+                      <div class="containercard">
+                          <p>Fuga di Medea (cratere)</p>                    
+                      </div>
+                    </div>
+                  </a>
+              </div> 
+              </div> 
+              <div id="edizioni" class="tabcontent">
+                <div class="singolecatalogo">
+                  <a href="#">
+                    <div class="card">
+                      <img src="./immagini/heroidesedizione.jpg" alt="Edizione moderna delle Heroides di Ovidio">
+                      <div class="containercard">
+                          <p>Nicola Gardini - <cite>Heroides</cite> di Ovidio</p>                    
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="singolecatalogo">
+                    <a href="#">
+                      <div class="card">
+                        <img src="./immagini/edizioneeuripide.jpg" alt="Medea di Seneca">
+                        <div class="containercard">
+                            <p>Laura Correale - <cite>Medea</cite> di Euripide</p>                    
+                        </div>
+                      </div>
+                    </a>
+                </div>
+                <div class="singolecatalogo">
+                    <a href="#">
+                      <div class="card">
+                        <img src="./immagini/edizioneargonautiche.jpg" alt="Argonautiche di Apollonio Rodio">
+                        <div class="containercard">
+                            <p>Guido Paduano - Le <cite>Argonautiche</cite> di Apollonio Rodio</p>
+                        </div>
+                      </div>
+                    </a>
+                </div>
+              </div>
+              <div id="videolezioni" class="tabcontent">
+              <div class="singolecatalogo Cantarella">
+                  <a href="https://www.youtube.com/watch?v=VhMZO7QdchU&ab_channel=EditoriLaterza" target="_blank" title="Ascolta la lezione di Eva Cantarella su YouTube">
+                      <div class="card">
+                        <img src="./immagini/Cantarella.png" alt="Lezione di Eva Cantarella">
+                        <div class="containercard">
+                            <p>Eva Cantarella sulla <cite>Medea</cite> di Euripide</p>                   
+                        </div>
+                      </div>
+                  </a>
+                </div>     
+              </div>
+            </div>
+      <iframe></iframe>
+      <!-- pagination -->
+      <div class="pagination">
+        <a href="#">&laquo;</a>
+        <a href="#">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">&raquo;</a>
+      </div>
+      <br>
+      <!-- footer -->
+      <footer>
+        <div class="container-fluid">
+        <!-- riga 1 -->
+        <div class="row">
+          <div class="col-md-6">
+            <h3>Il progetto</h3>
+            <p>Il progetto <span class="corsivo">Medea nell'antichità</span> è proposto per l'esame Digital humanities e patrimonio culturale all'interno del <a href="https://ficlit.unibo.it/it/dipartimento">Dipartimento di Filologia Classica e Italianistica (FICLIT)</a> dell'Università di Bologna.</p>
+            <p>&copy; Copyright Laura Pagnini 2023 | Corso di Digital Humanities e Patrimonio Culturale</p>
+            <p><a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Licenza CC BY 4.0</a></p>
+            <h3></h3>
+          </div>
+          <div class="col-md-6">
+            <h3>Contatti</h3>
+            <p>Alma Mater Studiorum - Università di Bologna (UniBo)</p>
+            <p>Dipartimento di Filologia Classica e Italianistica (FICLIT)</p>
+            <p>Via Zamboni 32, 40126, Bologna</p>
+            <p>laura.pagnini@studio.unibo.it</p>
+          </div>
+        </div>
+      </div>
+      </footer>
+      <script src="js/javascript.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+    </body>
+  </html>

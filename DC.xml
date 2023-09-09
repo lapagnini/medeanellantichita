@@ -12,7 +12,7 @@
 	<dcterms:type xsi:type="dcterms:LCSH">https://id.loc.gov/authorities/subjects/sh85042482.html</dcterms:type>
 	<dc:format>Testo</dc:format>
 	<dcterms:identifier type="permalink">http://viaf.org/viaf/117159474174027661135</dcterms:identifier>
-	<dc:source>https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.02.0068%3Atext%3DEp.%3Apoem%3D12</dc:source>
+	<dc:source>https://www.dublincore.org/specifications/dublin-core/dcmi-terms/</dc:source>
 	<dc:language>Latino</dc:language>
 	<dcterms:relation xsi:type="dcterms:DDC">871.01</dcterms:relation>
 	<dcterms:isPartOf>Heroides</dcterms:isPartOf>

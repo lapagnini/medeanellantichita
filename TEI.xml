@@ -20,7 +20,9 @@
                </sourceDesc>
           </fileDesc>
           <profileDesc>
-               <date>2 d.C.</date>
+               <creation>
+                    <date>2 d.C.</date>
+               </date>
                <langUsage>
                     <language ident="la">Latino</language>
                </langUsage>

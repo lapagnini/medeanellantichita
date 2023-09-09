@@ -47,7 +47,8 @@
                          <person>
                               <persName xml:id="Ia" sameAs="http://viaf.org/viaf/12290832">Giasone</persName>
                          </person>
-                         <personGrp xml:id="Arg" sameAs="http://viaf.org/viaf/193717443">Argonauti
+                         <personGrp>
+                              <persName xml:id="Arg" sameAs="http://viaf.org/viaf/193717443">Argonauti</persName>
                          </personGrp>
                          <person>
                               <persName xml:id="Scy" sameAs="http://viaf.org/viaf/202065436">Scilla</persName>
@@ -62,9 +63,11 @@
                          <place>
                               <geogName xml:id="Ph" type="river" sameAs="https://pleiades.stoa.org/places/874645">Fasi</geogName>
                          </place>
-                         <placeName>
-                                   <settlement xml:id="Rg" type="city" sameAs="https://pleiades.stoa.org/places/491527">Argo</settlement>
-                              </placeName>
+                         <place>
+                              <placeName>
+                                        <settlement xml:id="Rg" type="city" sameAs="https://pleiades.stoa.org/places/491527">Argo</settlement>
+                                   </placeName>
+                         </place>
                          <place xml:id="Sym" type="islandGroup" sameAs="https://pleiades.stoa.org/places/874645">
                               <placeName>Simplegadi</placeName>
                          </place>
@@ -154,7 +157,7 @@
                     <l>Mane erat, et thalamo cara recepta soror</l>
                <l>disiectamque comas adversaque in ora iacentem</l>
                     <l>invenit, et lacrimis omnia plena meis.</l>
-               <l>Orat opem <personGrp sameAs="#Arg">Minyis</personGrp>. alter petit, impetrat alter:</l>
+               <l>Orat opem <persName sameAs="#Arg">Minyis</persName>. alter petit, impetrat alter:</l>
                     <l><persName sameAs="#Ia">Aesonio</persName> iuveni quod rogat illa, damus.</l>
                <l>Est nemus et piceis et frondibus ilicis atrum;</l>
                     <l>vix illuc radiis solis adire licet.</l>

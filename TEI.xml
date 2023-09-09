@@ -45,58 +45,58 @@
                <particDesc>
                     <listPerson>
                          <person>
-                              <persName xml:id="Md" sameAs="http://viaf.org/viaf/305149294392580522664">Medea</persName> 
+                              <persName xml:id="Md" ref="http://viaf.org/viaf/305149294392580522664">Medea</persName> 
                          </person>
                          <person>                  
-                              <persName xml:id="Pl" sameAs="http://viaf.org/viaf/8155157342854510100004">Pelia</persName>
+                              <persName xml:id="Pl" ref="http://viaf.org/viaf/8155157342854510100004">Pelia</persName>
                          </person>
                          <person>
-                              <persName xml:id="Phrx" sameAs="http://viaf.org/viaf/42164959454324020174">Frisso</persName>
+                              <persName xml:id="Phrx" ref="http://viaf.org/viaf/42164959454324020174">Frisso</persName>
                          </person>
                          <person>
-                              <persName xml:id="Cr" sameAs="http://viaf.org/viaf/316437410">Creusa</persName>
+                              <persName xml:id="Cr" ref="http://viaf.org/viaf/316437410">Creusa</persName>
                          </person>
                          <person> 
-                              <persName xml:id="Aet" sameAs="http://viaf.org/viaf/8196424">Eeta</persName>
+                              <persName xml:id="Aet" ref="http://viaf.org/viaf/8196424">Eeta</persName>
                          </person>
                          <person> 
-                              <persName xml:id="Krn" sameAs="http://viaf.org/viaf/8168105447343321674">Creonte</persName>
+                              <persName xml:id="Krn" ref="http://viaf.org/viaf/8168105447343321674">Creonte</persName>
                          </person>
                          <person>
-                              <persName xml:id="Ia" sameAs="http://viaf.org/viaf/12290832">Giasone</persName>
+                              <persName xml:id="Ia" ref="http://viaf.org/viaf/12290832">Giasone</persName>
                          </person>
                          <personGrp>
-                              <persName xml:id="Arg" sameAs="http://viaf.org/viaf/193717443">Argonauti</persName>
+                              <persName xml:id="Arg" ref="http://viaf.org/viaf/193717443">Argonauti</persName>
                          </personGrp>
                          <person>
-                              <persName xml:id="Scy" sameAs="http://viaf.org/viaf/202065436">Scilla</persName>
+                              <persName xml:id="Scy" ref="http://viaf.org/viaf/202065436">Scilla</persName>
                          </person>
                          <person>
-                              <persName xml:id="Crd" sameAs="http://viaf.org/viaf/202157161">Cariddi</persName>
+                              <persName xml:id="Crd" ref="http://viaf.org/viaf/202157161">Cariddi</persName>
                          </person>
                     </listPerson>
                </particDesc>
                <settingDesc>
                     <listPlace>
                          <place>
-                              <geogName xml:id="Ph" type="river" sameAs="https://pleiades.stoa.org/places/874645">Fasi</geogName>
+                              <geogName xml:id="Ph" type="river" ref="https://pleiades.stoa.org/places/874645">Fasi</geogName>
                          </place>
                          <place>
                               <placeName>
-                                        <settlement xml:id="Rg" type="city" sameAs="https://pleiades.stoa.org/places/491527">Argo</settlement>
+                                        <settlement xml:id="Rg" type="city" ref="https://pleiades.stoa.org/places/491527">Argo</settlement>
                                    </placeName>
                          </place>
-                         <place xml:id="Sym" type="islandGroup" sameAs="https://pleiades.stoa.org/places/874645">
+                         <place xml:id="Sym" type="islandGroup" ref="https://pleiades.stoa.org/places/874645">
                               <placeName>Simplegadi</placeName>
                          </place>
                          <place>
                               <placeName>
-                                   <settlement xml:id="Cor" type="city" sameAs="https://pleiades.stoa.org/places/570182">Corinto</settlement>
+                                   <settlement xml:id="Cor" type="city" ref="https://pleiades.stoa.org/places/570182">Corinto</settlement>
                               </placeName>
                          </place>
                          <place>
                               <placeName>
-                                   <region xml:id="Sct" sameAs="https://pleiades.stoa.org/places/1273">Scizia</region>
+                                   <region xml:id="Sct" ref="https://pleiades.stoa.org/places/1273">Scizia</region>
                               </placeName>
                          </place>
                     </listPlace>

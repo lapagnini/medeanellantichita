@@ -16,7 +16,7 @@
 	<dc:language>Latino</dc:language>
 	<dcterms:relation xsi:type="dcterms:DDC">871.01</dcterms:relation>
 	<dcterms:isPartOf>Heroides</dcterms:isPartOf>
-	<dc:spatial>Roma</dc:spatial>
+	<dcterms:spatial>Roma</dcterms:spatial>
 	<dc:rights>CC BY-SA</dc:rights>
 
 </metadata>

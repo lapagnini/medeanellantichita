@@ -295,6 +295,10 @@ nav h4 {
   text-align: center;
 }
 
+.metadati span {
+  font-weight: bold;
+}
+
 .metadati p {
   margin-left: 40px;
   font-size: 20px;

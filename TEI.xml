@@ -6,10 +6,10 @@
                     <title ref="http://viaf.org/viaf/117159474174027661135">Medea Iasoni (Heroides). Edizione digitale</title>
                     <respStmt>
                          <resp>trascrizione</resp>
-                         <name xml:id="PDL">Perseus Digital Library</name>
+                              <name xml:id="PDL">Perseus Digital Library</name>
                          <resp>convertito in XML</resp>
                          <resp>marcatura</resp>
-                         <name xml:id="LP">Laura Pagnini</name>
+                              <name xml:id="LP">Laura Pagnini</name>
                     </respStmt>
                </titleStmt>
                <publicationStmt>

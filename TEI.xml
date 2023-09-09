@@ -4,7 +4,7 @@
           <fileDesc>
                <titleStmt>
                     <title ref="http://viaf.org/viaf/117159474174027661135">Medea Iasoni (Heroides). Edizione digitale</title>
-                    <author ref="http://viaf.org/viaf/88342447">Ovidio</author>
+                    <author xml:id="Ov" ref="http://viaf.org/viaf/88342447">Ovidio</author>
                     <respStmt>
                          <resp>trascrizione</resp>
                               <name xml:id="PDL">Perseus Digital Library</name>
@@ -15,11 +15,24 @@
                </titleStmt>
                <publicationStmt>
                     <publisher>
-                         Università di Bologna
+                         Perseus Digital Library
                     </publisher>
                </publicationStmt>
                <sourceDesc>
-                    <p>Trascritto dalla versione disponibile su Perseus Digital Library</p>
+                    <biblStruct>
+                         <monogr>
+                              <title>Heroides: lettere di eroine</title>
+                              <author xml:id="#Ov">Ovidio</author>
+                              <editor xml:id="NG">Nicola Gardini</editor>
+                              <imprint>
+                                   <pubPlace>Milano</pubPlace>
+                                   <publisher>Mondadori</publisher>
+                                   <date>1994</date>
+                              </imprint>
+                              <extent>XXXI</extent>
+                              <extent>266 p.</extent>
+                         </monogr>
+                    </biblStruct>
                </sourceDesc>
           </fileDesc>
           <profileDesc>

@@ -7,8 +7,6 @@
                     <respStmt>
                          <resp>trascrizione</resp>
                          <name xml:id="PDL">Perseus Digital Library</name>
-                    </respStmt>
-                    <respStmt>
                          <resp>convertito in XML</resp>
                          <resp>marcatura</resp>
                          <name xml:id="LP">Laura Pagnini</name>
